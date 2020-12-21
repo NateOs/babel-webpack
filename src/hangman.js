@@ -10,7 +10,7 @@ class Hangman {
         let puzzle = ''
 
         this.word.forEach((letter) => {
-            if (this.guessedLetters.includes(letter) || letter === ' ') {
+            if (this.guessedLetters.includes(letter) || letter === ' ') {//generating the puzzle
                 puzzle += letter
             } else {
                 puzzle += '*'
